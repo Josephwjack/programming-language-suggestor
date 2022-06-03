@@ -14,25 +14,16 @@ $(document).ready(function() {
       alert('Please fill out form completely');
     } else if (notice === "yes" && finerThings === "jewelery" && experience === "no" && car === "safe" && obstacles === "frustrating") {
       $("#pythonResult").show();
-      $("#javaScriptResult").hide();
-      $("#rubyResult").hide();
-      $("#rustResult").hide();    
+      $("#formLanguage").hide();   
     } else if (notice === "no" && finerThings === "snakeSkin" && experience === "yes" && car === "muscle" && obstacles === "learning") {
-      $("#pythonResult").hide();
-      $("#javaScriptResult").show();
-      $("#rubyResult").hide();
-      $("#rustResult").hide(); 
+      $("#formLanguage").hide(); 
+      $("#javaScriptResult").show(); 
     } else if (notice === "yes" && finerThings === "snakeSkin" && experience === "yes" && car === "safe" && obstacles === "frustrating") {
-      $("#pythonResult").hide();
-      $("#javaScriptResult").hide();
       $("#rubyResult").show();
-      $("#rustResult").hide(); 
+      $("#formLanguage").hide(); 
     } else {
-      $("#pythonResult").hide();
-      $("#javaScriptResult").hide();
-      $("#rubyResult").hide();
       $("#rustResult").show();
-
+      $("#formLanguage").hide(); 
     }
 
 
