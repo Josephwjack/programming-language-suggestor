@@ -1,6 +1,27 @@
-.results {
+body {
+  background-image: ;
+  background-color: darkgoldenrod
+}
+
+
+
+
+#python {
   display: none;
 }
+
+#javaScript {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#rust {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
