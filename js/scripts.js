@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#info").submit(function(event) {
+  $("form#language").submit(function(event) {
     event.preventDefault();
     const name1Input = $("input#name1").val();
     const surveyDateInput = $("#surveyDate").val();
@@ -10,6 +10,9 @@ $(document).ready(function() {
     const obstacles = $("input:radio[name=obstacles]:checked").val();
 
 
+    if (name1Input === undefined || surveyDateInput === undefined || notice === undefined || finerThings === undefined || experience === undefined || car ===undefined || obstacles === undefined) { 
+      alert('Please fill out form completely');
+    } else if (
 
     $(".name1").text(name1Input);
     $(".surveyDate").text(surveyDateInput);
@@ -18,10 +21,7 @@ $(document).ready(function() {
     $(".radio3").text(experience);
     $(".radio4").text(car);
     $(".radio5").text(obstacles);
-    
-
-    $(".receipt").show();
-    $("form#info").hide();
+  
   });
 });
 
