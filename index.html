@@ -11,9 +11,11 @@
   <div class="container">
     <h1>Having trouble deciding?</h1>
     <br>
-    <h2>We're here to help, fill out this page to finally find out which programming language is best for you!</h2>
+    <div class="jumbotron">
+    <h4>We're here to help, fill out this page to finally find out which programming language is best for you!</h4>
+    </div>
     <br>
-    <form id="formGroup">
+    <form id="formResults">
       <div class="form-group">
         <label for="name1">Name:</label>
         <input id="name1" required id="name1" class="form-control" type="text" placeholder="Enter name here">
@@ -26,27 +28,27 @@
       <br>
       <div class="form-group">
         <select id="interest" class="form-control">
-          <option>Front End Development</option>
-          <option>Back End Development</option>
-          <option>Full Stack</option>
-          <option>Don't care</option>
+          <option value="front">Front End Development</option>
+          <option value="front">Back End Development</option>
+          <option value="full">Full Stack</option>
+          <option value="dont">Don't care</option>
         </select>
       </div> 
       <br>
       <div class="radio1">
         <label for="radio1"> Do you typically notice the appearance of a website over its functionality?
-          <input type="radio" name="notice" value="yes" checked> Yes
+          <input type="radio" name="notice" value="yes"> Yes
           <input type="radio" name="notice" value="no" > No
         </label>
       </div>
-      <div class="radio2">
-        <label for="question2"> Snakeskin purse or nice Jewelry?
+      <div class="radio22">
+        <label for="radio2"> Snakeskin purse or nice Jewelry?
           <input type="radio" name="finerThings" value="snakeSkin"> Purse
           <input type="radio" name="finerThings" value="jewelery"> Jewelry
         </label>
       </div>
       <div class="radio3">
-        <label for="question3"> Do you have any previous experience programming?
+        <label for="radio3"> Do you have any previous experience programming?
           <input type="radio" name="experience" value="yes"> Yes
           <input type="radio" name="experience" value="no"> No
         </label>
@@ -62,7 +64,7 @@
           <input type="radio" name="obstacles" value="learn"> Learning Opportunity
         </label>
       </div>
-      
+      <button type="submit" class="btn-lg">Let's find out!</button>
       
 
 
