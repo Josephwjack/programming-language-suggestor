@@ -9,8 +9,6 @@ $(document).ready(function() {
     const car = $("input:radio[name=car]:checked").val();
     const obstacles = $("input:radio[name=obstacles]:checked").val();
 
-
-
     if (name1Input === undefined || surveyDateInput === undefined || notice === undefined || finerThings === undefined || experience === undefined || car ===undefined || obstacles === undefined) { 
       alert('Please fill out form completely');
 
@@ -24,9 +22,10 @@ $(document).ready(function() {
     } else if (notice === "yes" && finerThings === "snakeSkin" && experience === "yes" && car === "safe" && obstacles === "frustrating") {
       $("#ruby").show();
       $('#formLanguage').hide();
-    } else if 
+    } else if
       ($("#rust").show());
       $('#formLanguage').hide();
+    
   });
 });
 
