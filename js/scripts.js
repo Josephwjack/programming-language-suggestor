@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#language").submit(function(event) {
+  $("#formLanguage").submit(function(event) {
     event.preventDefault();
     const name1Input = $("input#name1").val();
     const surveyDateInput = $("#surveyDate").val();
@@ -10,31 +10,23 @@ $(document).ready(function() {
     const obstacles = $("input:radio[name=obstacles]:checked").val();
 
 
+
     if (name1Input === undefined || surveyDateInput === undefined || notice === undefined || finerThings === undefined || experience === undefined || car ===undefined || obstacles === undefined) { 
       alert('Please fill out form completely');
+
     } else if (notice === "yes" && finerThings === "jewelery" && experience === "no" && car === "safe" && obstacles === "frustrating") {
-      $("#pythonResult").show();
-      $("#formLanguage").hide();   
-    } else if (notice === "no" && finerThings === "snakeSkin" && experience === "yes" && car === "muscle" && obstacles === "learning") {
-      $("#formLanguage").hide(); 
-      $("#javaScriptResult").show(); 
+      $("#python").show();
+      $('#formLanguage').hide();
+
+    } else if (notice === "no" && finerThings === "snakeSkin" && experience === "yes" && car === "muscle" && obstacles === "learning") { 
+      $("#javaScript").show(); 
+      $('#formLanguage').hide();
     } else if (notice === "yes" && finerThings === "snakeSkin" && experience === "yes" && car === "safe" && obstacles === "frustrating") {
-      $("#rubyResult").show();
-      $("#formLanguage").hide(); 
-    } else {
-      $("#rustResult").show();
-      $("#formLanguage").hide(); 
-    }
-
-
-    $(".name1").text(name1Input);
-    $(".surveyDate").text(surveyDateInput);
-    $(".radio1").text(notice);
-    $(".radio2").text(finerThings);
-    $(".radio3").text(experience);
-    $(".radio4").text(car);
-    $(".radio5").text(obstacles);
-  
+      $("#ruby").show();
+      $('#formLanguage').hide();
+    } else if 
+      ($("#rust").show());
+      $('#formLanguage').hide();
   });
 });
 
