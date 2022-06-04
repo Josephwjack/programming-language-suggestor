@@ -1,27 +1,78 @@
 body {
-  background-color: darkgoldenrod
+  background: url("https://images.unsplash.com/photo-1652120268427-9ba66e870467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80");
+  font-size: medium;
+  font-weight: 20px;
+  text-align: center;
+  font
+  
+  
+}
+.jumbotron {
+  background-color: rgba(36, 33, 33, 0.493);
+  text-align: center;
+  text-align: center;
+  font-size: x-large;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 20px #fff, 0px 0px 3px rgba(242, 129, 8, 0.531);
 }
 
+h1 {
+  font-weight: 500;
+  text-shadow: 5px 5px 20px #fff, 0px 0px 30px rgba(242, 129, 8, 0.531);
+  text-transform: uppercase;
+
+}
+#formLanguage {
+  color: white;
+  font-size: large;
+  font-weight: 200;
+  padding-top: 4px;
+}
+
+.results {
+  color: white;
+  text-size-adjust: 20px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+}
 
 #python {
   display: none;
+  color: white;
 }
 
 #javaScript {
   display: none;
+  color: white;
 }
 
 #ruby {
   display: none;
+  color: white;
 }
 
 #rust {
   display: none;
+  color: white;
+}
+button {
+  color: black;
+  text-size-adjust: 20px;
+}
+
+.button {
+font-variant: normal;
+color: rgb(227, 113, 6);
+box-sizing: border-box;
+background-color: rgba(242, 129, 8, 0.531);
 }
 
 .clickable {
   cursor: pointer;
-  color: #0088cc;
+  color: #e8a405;
 }
 
 .clickable:hover {

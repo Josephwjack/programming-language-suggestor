@@ -16,16 +16,16 @@ $(document).ready(function() {
       $("#python").show();
       $('#formLanguage').hide();
 
-    } else if (notice === "no" && finerThings === "snakeSkin" && experience === "yes" && car === "muscle" && obstacles === "learning") { 
+    } else if (notice === "no" && finerThings === "snakeSkin" && experience === "no" && car === "muscle" && obstacles === "learn") { 
       $("#javaScript").show(); 
       $('#formLanguage').hide();
     } else if (notice === "yes" && finerThings === "snakeSkin" && experience === "yes" && car === "safe" && obstacles === "frustrating") {
       $("#ruby").show();
       $('#formLanguage').hide();
-    } else if
+    } else {
       ($("#rust").show());
       $('#formLanguage').hide();
-    
+    }
   });
 });
 
