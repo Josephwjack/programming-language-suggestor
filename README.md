@@ -8,7 +8,7 @@
 
 ## Description
 
-_Basic survey type webpage to help people chose the right programming language for themselves. Built as a week 2 independant project for Epicodus._
+_Basic survey type webpage to help people choose the right programming language for themselves. Built as a week 2 independant project for Epicodus._
 
 ## Technologies Used
 
@@ -25,9 +25,7 @@ _Basic survey type webpage to help people chose the right programming language f
 
 ## Known Bugs
 
-* _CSS is not complete at this moment_
-* _HTML indentation is not finished_
-* _Reset button still to be added_
+* _No known bugs_
 
 ##
 [GitHub Pages link]
