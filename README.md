@@ -8,7 +8,7 @@
 
 ## Description
 
-_Basic survey type webpage to help people choose the right programming language for themselves. Built as a week 2 independant project for Epicodus._
+_Interactive survey webpage to help people choose the right programming language for themselves. Built as a week 2 independant project for Epicodus._
 
 ## Technologies Used
 
